@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Wanderlustr Travel</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo">Wanderluster Travel</a>
+      <div class="underline"></div>
+    </header>
+    <main>
+      <form>
+        <h2 class="hero-text">Wanderluster Travel</h2>
+        <div id="destination">
+          <p class="hero-description">Where in the world do you want to go?</p>
+          <input placeholder="Aruba" type="text" id="form-travel">
+          <div class="error">Please enter a destination</div>
+          <button id="next">next</button>
+        </div>
+        
+        <div id="email">
+          <p class="hero-description">We'll find the best deal and contact you!</p>
+          <input placeholder="jane.doe@mail.com" type="email" id="form-email">
+          <div class="error">Email must be valid</div>
+          <button id="submit">Submit</button>
+        </div>
+
+        <div id="submitting">
+          <p class="hero-description">Submitting...</p>
+        </div>
+
+        <div id="thank">
+          <p class="hero-description">Thank You!</p>
+        </div>
+      </form>
+    </main>
+    <footer><p>Copyright © 2018 Wanderlustr Travel - All Rights Reserved. Beta V1.0</p></footer>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="script.js" async defer></script>
+  </body>
+</html>
