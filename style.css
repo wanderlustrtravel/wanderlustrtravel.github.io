@@ -1,6 +1,7 @@
 body {
   background-image: url('./passport.jpg');
   background-size: cover;
+  background-position-x: center;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
