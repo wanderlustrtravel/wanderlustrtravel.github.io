@@ -44,6 +44,7 @@ header {
   font-size: 24px;
   margin-bottom: 24px;
   margin-top: 24px;
+  text-shadow: 1px 1px #000000;
 }
 
 #destination, #email, #thank, #submitting {
@@ -72,6 +73,7 @@ main {
   margin-bottom: 0;
   word-wrap: break-word;
   text-align: center;
+  text-shadow: 1px 1px #000000;
 }
 
 .hero-description {
@@ -80,6 +82,7 @@ main {
   font-size: 30px;
   word-wrap: break-word;
   text-align: center;
+  text-shadow: 1px 1px #000000;
 }
 
 #thank, #submitting {
@@ -135,13 +138,22 @@ footer {
   color: darkgrey;
 }
 
-.footer p {
+footer p {
+  padding: 8px;
   text-align: center;
+}
+
+.contact {
+  margin-bottom: -80px;
 }
 
 @media only screen and (max-width: 750px) {
   .hero-text {
     font-size: 40px;
+  }
+
+  .contact {
+    margin-bottom: -10px;
   }
 
   .hero-description {
