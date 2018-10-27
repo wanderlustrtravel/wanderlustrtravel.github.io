@@ -9,7 +9,7 @@ getById('#next').addEventListener('click', function(e) {
   if(dest != '') {
     getById('#destination').style.display = 'none';
     getById('#email').style.display = 'flex';
-    document.body.classList.add("airplane");
+    getById('.bg-image').classList.add("airplane");
   } else {
     $(e.target).parent().find('.error').css('display', 'block')
   }
