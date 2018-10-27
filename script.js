@@ -2,6 +2,9 @@ function getById(id) {
   return document.querySelector(id)  
 }
 
+var h = $('body').height()
+$('.bg-image').css('height', h)
+
 getById('#next').addEventListener('click', function(e) {
   e.preventDefault();
   var dest = getById('#form-travel').value
