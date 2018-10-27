@@ -5,6 +5,11 @@ function getById(id) {
 var h = $('body').height()
 $('.bg-image').css('height', h)
 
+$( window ).resize(function() {
+  var h = $('body').height()
+  $('.bg-image').css('height', h)
+});
+
 getById('#next').addEventListener('click', function(e) {
   e.preventDefault();
   var dest = getById('#form-travel').value
